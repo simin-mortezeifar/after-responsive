@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: sans-serif;
+   background-color:lightgray ;
+}
+
+.container{
+    height: 550px;
+    width: 800px;
+    margin:50px auto;
+    display: flex;
+    background-color: #fff;
+}
+.section-left{
+    height: 550px;
+    width: 50%;
+    text-align: center;
+}
+.section-right{
+    height: 550px;
+    width: 50%;
+   
+}
+.Smartsave{
+   font-size: 17px ;
+   margin-top: 50px;
+}
+
+
+.p1{
+  font-weight: bold;
+  margin-top:100px ;
+}
+.p2{
+  color: rgb(150, 149, 149);
+  font-size: 10px;
+  position: relative;
+  bottom: 10px;
+}
+.signin-container{
+    display: flex;
+    background-color:rgb(233, 230, 230);
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 12px; 
+   
+}
+.signin{
+    background-color: #fff;
+    margin: auto;
+    height: 30px;
+    width: 50%;
+    border-radius: 10px;
+   
+  
+}
+.signin p{
+  position: relative;
+  bottom: 5px;
+}
+.signup{
+    margin:auto;
+    height: 30px;
+    width: 50%;
+    color: gray;
+}
+
+.signup p{
+  position: relative;
+  bottom: 5px;
+}
+ .email{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 35px;
+    border: 1px solid lightgray;
+    margin:15px auto;
+    border-radius: 10px;
+    
+ }
+ .type-mail input{
+    border: none;
+    border-left: 1px solid lightgrey;
+    width: 170px;
+    height: 20px;
+    font-size: 8px;
+    margin: 6px 0;
+    outline: 0;
+   
+
+ }
+ 
+ .letter{
+    margin: 6px 10px;
+   
+ }
+  .check{
+    margin: 6px 12px;
+  }
+ 
+  .section-right img{
+    height: 100%;
+    width:100%;
+  }
+
+  .continue{
+    width: 60%;
+    height: 35px;
+    background-color: rgb(63, 125, 196);
+    border-radius: 10px;
+    margin: auto;
+  }
+
+  .continue p{
+   padding: 12px;
+   color: #fff;
+    font-size: 11px;
+  }
+
+  .continue-text{
+    border-top: 1px solid lightgray;
+    width: 240px;
+    margin:20px 80px;
+    position: absolute;
+    display: flex;
+    
+    height: 60px;
+  }
+  .continue-text p{
+    font-size: 10px;
+    color: gray;
+    background-color: #fff;
+    width: 100px;
+    position: relative;
+    left: 70px;
+    bottom: 15px;
+    
+  }
+  
+  .logo-container{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px ;
+    position: relative;
+    right: 50px;
+  }
+ .google-logo{
+    border: 1px solid grey;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    padding:4px;
+   
+  }
+
+ .apple-logo{
+   border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    padding: 5px;
+   
+ }
+ .facebook-logo{
+  border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(63, 125, 196);
+    padding: 6px;
+
+ }
+
+ .footer-text{
+    width: 360px;
+   height: 50px;
+   margin: 130px auto;
+   font-size: 10px;
+   color: rgb(163, 162, 162);
+  }
