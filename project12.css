@@ -1,186 +1,244 @@
 body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   font-family: sans-serif;
-   background-color:lightgray ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: sans-serif;
+ background-color:lightgray ;
 }
 
 .container{
-    height: 550px;
-    width: 800px;
-    margin:50px auto;
-    display: flex;
-    background-color: #fff;
+  height: 550px;
+  width: 800px;
+  margin:50px auto;
+  display: flex;
+  background-color: #fff;
+}
+
+.main{
+  height: 72%;
+  width: 80%;
+  margin: auto;  
 }
 .section-left{
-    height: 550px;
-    width: 50%;
-    text-align: center;
+  height: 550px;
+  width: 50%;
+  text-align: center;
 }
 .section-right{
-    height: 550px;
-    width: 50%;
-   
+  height: 550px;
+  width: 50%;
+ 
 }
 .Smartsave{
-   font-size: 17px ;
-   margin-top: 50px;
+ font-size: 17px ;
+ margin-top: 50px;
 }
 
 
 .p1{
-  font-weight: bold;
-  margin-top:100px ;
+font-weight: bold;
+margin-top:80px ;
 }
 .p2{
-  color: rgb(150, 149, 149);
-  font-size: 10px;
-  position: relative;
-  bottom: 10px;
+color: rgb(150, 149, 149);
+font-size: 10px;
+position: relative;
+bottom: 10px;
 }
 .signin-container{
-    display: flex;
-    background-color:rgb(233, 230, 230);
-    width: 60%;
-    height: 30px;
-    margin: auto;
-    border-radius: 10px;
-    padding: 2px;
-    font-size: 12px; 
-   
+  display: flex;
+  background-color:rgb(233, 230, 230);
+  width: 80%;
+  height: 30px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 2px;
+  font-size: 12px; 
+ 
 }
 .signin{
-    background-color: #fff;
-    margin: auto;
-    height: 30px;
-    width: 50%;
-    border-radius: 10px;
-   
-  
+  background-color: #fff;
+  margin: auto;
+  height: 30px;
+  width: 50%;
+  border-radius: 10px;
+ 
+
 }
 .signin p{
-  position: relative;
-  bottom: 5px;
+position: relative;
+bottom: 5px;
 }
 .signup{
-    margin:auto;
-    height: 30px;
-    width: 50%;
-    color: gray;
+  margin:auto;
+  height: 30px;
+  width: 50%;
+  color: gray;
 }
 
 .signup p{
-  position: relative;
-  bottom: 5px;
+position: relative;
+bottom: 5px;
 }
- .email{
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
-    height: 35px;
-    border: 1px solid lightgray;
-    margin:15px auto;
-    border-radius: 10px;
-    
- }
- .type-mail input{
-    border: none;
-    border-left: 1px solid lightgrey;
-    width: 170px;
-    height: 20px;
-    font-size: 8px;
-    margin: 6px 0;
-    outline: 0;
-   
-
- }
+.email{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 35px;
+  border: 1px solid lightgray;
+  margin:15px auto;
+  border-radius: 10px;
+  
+}
+.type-mail{
+  width: 70%;
+}
+.type-mail input{
+  border: none;
+  border-left: 1px solid lightgrey;
+  width: 100%;
+  height: 20px;
+  font-size: 8px;
+  margin: 6px 0;
+  outline: 0;
  
- .letter{
-    margin: 6px 10px;
-   
- }
-  .check{
-    margin: 6px 12px;
-  }
+
+}
+
+.letter{
+  margin: 6px ;
  
-  .section-right img{
-    height: 100%;
-    width:100%;
-  }
+}
+.check{
+  margin: 6px 12px;
+}
 
-  .continue{
-    width: 60%;
-    height: 35px;
-    background-color: rgb(63, 125, 196);
-    border-radius: 10px;
-    margin: auto;
-  }
+.section-right img{
+  height: 100%;
+  width:100%;
+}
 
-  .continue p{
-   padding: 12px;
-   color: #fff;
-    font-size: 11px;
-  }
+.continue{
+  width: 80%;
+  height: 35px;
+  background-color: rgb(63, 125, 196);
+  border-radius: 10px;
+  margin: auto;
+}
 
-  .continue-text{
-    border-top: 1px solid lightgray;
-    width: 240px;
-    margin:20px 80px;
-    position: absolute;
-    display: flex;
-    
-    height: 60px;
+.continue p{
+ padding: 12px;
+ color: #fff;
+  font-size: 11px;
+}
+
+.continue-text{
+  width: 80%;
+  margin:15px auto;
+  display: flex;
+  height: 20px;
+ 
+}
+
+
+.continue-text p{
+  font-size: 10px;
+  color: gray;
+  position: relative;
+  text-align: center;
+  margin: 5px auto;
+ 
+}
+
+.continue-text p :before{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: lightgrey;
+  position: absolute;
+  right: 100%;
+  top:5px;
+  margin-right: 10px;
+  
+}
+
+.continue-text p :after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: lightgrey;
+  position: absolute;
+  left: 100%;
+  top: 5px;
+  margin-left: 10px;
+
+}
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  
+  
+}
+.google-logo{
+  border: 1px solid rgb(202, 200, 200);
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  padding:4px;
+  margin: 5px;
+ 
+}
+
+.apple-logo{
+ border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  padding: 5px;
+  margin: 5px;
+}
+.facebook-logo{
+border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(63, 125, 196);
+  padding: 6px;
+   margin: 5px;
+}
+
+.footer-text{
+  width: 360px;
+ height: 50px;
+ margin: 55px auto;
+ font-size: 10px;
+ color: rgb(163, 162, 162);
+}
+
+@media screen and (max-width:480px) {
+  .container{
+    height: 1100px;
+    width: 100%;
+    flex-direction: column;
+    margin: 0% ;
   }
-  .continue-text p{
-    font-size: 10px;
-    color: gray;
-    background-color: #fff;
-    width: 100px;
-    position: relative;
-    left: 70px;
-    bottom: 15px;
-    
+  .section-left{
+    width: 100%;
+  }
+  .section-right{
+    width: 100%;
   }
   
-  .logo-container{
-    width: 150px;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px ;
-    position: relative;
-    right: 50px;
+  .continue-text p :before{
+    width: 100px;
   }
- .google-logo{
-    border: 1px solid grey;
-    border-radius: 100%;
-    height: 30px;
-    width: 30px;
-    padding:4px;
-   
+  .continue-text p :after{
+    width: 100px;
   }
+  
+}
 
- .apple-logo{
-   border-radius: 100%;
-    height: 30px;
-    width: 30px;
-    background-color: black;
-    padding: 5px;
-   
- }
- .facebook-logo{
-  border-radius: 100%;
-    height: 30px;
-    width: 30px;
-    background-color: rgb(63, 125, 196);
-    padding: 6px;
-
- }
-
- .footer-text{
-    width: 360px;
-   height: 50px;
-   margin: 130px auto;
-   font-size: 10px;
-   color: rgb(163, 162, 162);
-  }
